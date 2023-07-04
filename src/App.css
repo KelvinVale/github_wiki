@@ -1,0 +1,70 @@
+.App img {
+  height: 70px;
+  width: 70px;
+
+  border: 2px solid #999;
+  border-radius: 100%;
+
+  margin: 20px 0 ;
+
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.App input {
+  width: 85%;
+  min-width: 250px;
+  
+  border: 1px solid #999;
+  border-radius: 22px;
+  
+  background: transparent;
+  font-size: 18px;
+  padding: 10px;
+  color: white;
+
+  margin: 20px 0 0 0;
+}
+.add-button {
+  min-width: 250px;
+  
+  border: 1px solid #999;
+  border-radius: 22px;
+  
+  background: transparent;
+  font-size: 18px;
+  padding: 10px;
+  color: white;
+
+  margin: 1px 0 20px 0;
+}
+
+.App button:hover { 
+  background: #999;
+  cursor: pointer;
+}
+.App button:active { 
+  background: white;
+}
+
+.App hr {
+  width: 90%;
+  margin: 20px 0;
+  background-color: rgba(229, 229, 229, 0.2);
+  border: 1px solid rgba(229, 229, 229, 0.2);
+}
+.App h4 {
+  font-size: 30px;
+  align-self: center;
+}
+
+.repositorio-div {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+}

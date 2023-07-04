@@ -1,0 +1,42 @@
+.repo-display {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-content:flex-start;
+}
+
+.repo-display strong {
+    color: #fff;
+    font-size: 24px;
+    margin: 12px 0 10px 0;
+}
+
+.repo-display p {
+    color: #999;
+    font-size: 12px;
+    margin: 10px 0 24px 0;
+}
+
+.repo-display a {
+    color: #999;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.repo-display button {
+    background-color: transparent;
+    color: #999;
+    font-size: 12px;
+    margin-top: 5px;
+    border: 0;
+    width: 30px;
+}
+.repo-display button:hover{
+    background-color: transparent;
+}
+
+.repo-display hr {
+    width: 100%;
+    margin: 10px 0;
+    background-color: rgba(229, 229, 229, 0.2);
+    border: 1px solid rgba(229, 229, 229, 0.2);
+  }
